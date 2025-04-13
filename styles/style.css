@@ -1,0 +1,157 @@
+body {
+  font-family: sans-serif;
+  background: #e0e0e0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+}
+
+img {
+  margin-top: 20px;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+section {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+h2 {
+  color: #444;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+blockquote {
+  background-color: #fff;
+  padding: 20px;
+  margin: 30px auto;
+  border-left: 5px solid #ccc;
+  width: 60%;
+  font-style: italic;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 60px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.package-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.package {
+  background-color: #fff;
+  padding: 15px;
+  width: 320px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.package img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.package h2 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.package p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.contact-box, .review-box {
+  background-color: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-box h2,
+.review-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.consent-box {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
